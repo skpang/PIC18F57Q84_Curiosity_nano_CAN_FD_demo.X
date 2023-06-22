@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>131072</length>
+      <used>8290</used>
+      <free>122782</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>12800</length>
+      <used>339</used>
+      <free>12461</free>
+    </memory>
+  </executable>
+</project>

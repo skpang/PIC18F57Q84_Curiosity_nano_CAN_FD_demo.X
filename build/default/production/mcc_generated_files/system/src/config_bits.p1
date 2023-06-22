@@ -1,0 +1,139 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"37 mcc_generated_files/system/src/config_bits.c
+[p x FEXTOSC  =  HS      ]
+"38
+[p x RSTOSC  =  EXTOSC      ]
+"41
+[p x CLKOUTEN  =  OFF      ]
+"42
+[p x PR1WAY  =  ON      ]
+"43
+[p x CSWEN  =  ON      ]
+"44
+[p x JTAGEN  =  OFF      ]
+"45
+[p x FCMEN  =  ON      ]
+"46
+[p x FCMENP  =  ON      ]
+"47
+[p x FCMENS  =  ON      ]
+"50
+[p x MCLRE  =  EXTMCLR      ]
+"51
+[p x PWRTS  =  PWRT_OFF      ]
+"52
+[p x MVECEN  =  ON      ]
+"53
+[p x IVT1WAY  =  ON      ]
+"54
+[p x LPBOREN  =  OFF      ]
+"55
+[p x BOREN  =  SBORDIS      ]
+"58
+[p x BORV  =  VBOR_1P9      ]
+"59
+[p x ZCD  =  OFF      ]
+"60
+[p x PPS1WAY  =  ON      ]
+"61
+[p x STVREN  =  ON      ]
+"62
+[p x LVP  =  ON      ]
+"63
+[p x XINST  =  OFF      ]
+"66
+[p x WDTCPS  =  WDTCPS_31      ]
+"67
+[p x WDTE  =  OFF      ]
+"70
+[p x WDTCWS  =  WDTCWS_7      ]
+"71
+[p x WDTCCS  =  SC      ]
+"74
+[p x BBSIZE  =  BBSIZE_512      ]
+"75
+[p x BBEN  =  OFF      ]
+"76
+[p x SAFEN  =  OFF      ]
+"79
+[p x WRTB  =  OFF      ]
+"80
+[p x WRTC  =  OFF      ]
+"81
+[p x WRTD  =  OFF      ]
+"82
+[p x WRTSAF  =  OFF      ]
+"83
+[p x WRTAPP  =  OFF      ]
+"86
+[p x BOOTPINSEL  =  RC5      ]
+"87
+[p x BPEN  =  OFF      ]
+"88
+[p x ODCON  =  OFF      ]
+"91
+[p x CP  =  OFF      ]
+"94
+[p x BOOTSCEN  =  OFF      ]
+"95
+[p x BOOTCOE  =  HALT      ]
+"96
+[p x APPSCEN  =  OFF      ]
+"97
+[p x SAFSCEN  =  OFF      ]
+"98
+[p x DATASCEN  =  OFF      ]
+"99
+[p x CFGSCEN  =  OFF      ]
+"100
+[p x COE  =  HALT      ]
+"101
+[p x BOOTPOR  =  OFF      ]
+"104
+[p x BCRCPOLT  =  hFF      ]
+"107
+[p x BCRCPOLU  =  hFF      ]
+"110
+[p x BCRCPOLH  =  hFF      ]
+"113
+[p x BCRCPOLL  =  hFF      ]
+"116
+[p x BCRCSEEDT  =  hFF      ]
+"119
+[p x BCRCSEEDU  =  hFF      ]
+"122
+[p x BCRCSEEDH  =  hFF      ]
+"125
+[p x BCRCSEEDL  =  hFF      ]
+"128
+[p x BCRCEREST  =  hFF      ]
+"131
+[p x BCRCERESU  =  hFF      ]
+"134
+[p x BCRCERESH  =  hFF      ]
+"137
+[p x BCRCERESL  =  hFF      ]
+"140
+[p x CRCPOLT  =  hFF      ]
+"143
+[p x CRCPOLU  =  hFF      ]
+"146
+[p x CRCPOLH  =  hFF      ]
+"149
+[p x CRCPOLL  =  hFF      ]
+"152
+[p x CRCSEEDT  =  hFF      ]
+"155
+[p x CRCSEEDU  =  hFF      ]
+"158
+[p x CRCSEEDH  =  hFF      ]
+"161
+[p x CRCSEEDL  =  hFF      ]
+"164
+[p x CRCEREST  =  hFF      ]
+"167
+[p x CRCERESU  =  hFF      ]
+"170
+[p x CRCERESH  =  hFF      ]
+"173
+[p x CRCERESL  =  hFF      ]

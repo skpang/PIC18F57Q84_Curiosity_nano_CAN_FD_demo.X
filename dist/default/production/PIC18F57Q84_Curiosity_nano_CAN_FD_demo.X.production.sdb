@@ -1,0 +1,2181 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q84 ]
+[d frameptr 1249 ]
+"93 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/can/src/can1.c
+[e E23082 CAN_OP_MODES `uc
+CAN_NORMAL_FD_MODE 0
+CAN_DISABLE_MODE 1
+CAN_INTERNAL_LOOPBACK_MODE 2
+CAN_LISTEN_ONLY_MODE 3
+CAN_CONFIGURATION_MODE 4
+CAN_EXTERNAL_LOOPBACK_MODE 5
+CAN_NORMAL_2_0_MODE 6
+CAN_RESTRICTED_OPERATION_MODE 7
+]
+[e E23091 CAN_OP_MODE_STATUS `uc
+CAN_OP_MODE_REQUEST_SUCCESS 0
+CAN_OP_MODE_REQUEST_FAIL 1
+CAN_OP_MODE_SYS_ERROR_OCCURED 2
+]
+[e E23049 CAN_TX_FIFO_CHANNELS `uc
+CAN1_TXQ 0
+CAN_TX_FIFO_MAX 1
+]
+[e E23077 CAN_TX_MSG_REQUEST_STATUS `uc
+CAN_TX_MSG_REQUEST_SUCCESS 0
+CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR 1
+CAN_TX_MSG_REQUEST_BRS_ERROR 2
+CAN_TX_MSG_REQUEST_FIFO_FULL 3
+]
+[e E23095 CAN_TX_FIFO_STATUS `uc
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_AVAILABLE 1
+]
+[e E23052 CAN_RX_FIFO_CHANNELS `uc
+CAN1_FIFO_1 1
+CAN_RX_FIFO_MAX 2
+]
+"159
+[e E23102 CAN_DLC `uc
+DLC_0 0
+DLC_1 1
+DLC_2 2
+DLC_3 3
+DLC_4 4
+DLC_5 5
+DLC_6 6
+DLC_7 7
+DLC_8 8
+DLC_12 9
+DLC_16 10
+DLC_20 11
+DLC_24 12
+DLC_32 13
+DLC_48 14
+DLC_64 15
+]
+"210
+[e E23068 CAN_MSG_OBJ_ID_TYPE `uc
+CAN_FRAME_STD 0
+CAN_FRAME_EXT 1
+]
+"244
+[e E23071 CAN_MSG_OBJ_FRAME_TYPE `uc
+CAN_FRAME_DATA 0
+CAN_FRAME_RTR 1
+]
+"272
+[e E23065 CAN_MSG_OBJ_BRS_MODE `uc
+CAN_NON_BRS_MODE 0
+CAN_BRS_MODE 1
+]
+"278
+[e E23074 CAN_MSG_OBJ_TYPE `uc
+CAN_2_0_FORMAT 0
+CAN_FD_FORMAT 1
+]
+"334
+[e E23098 CAN_RX_FIFO_STATUS `uc
+CAN_RX_MSG_NOT_AVAILABLE 0
+CAN_RX_MSG_AVAILABLE 1
+CAN_RX_MSG_OVERFLOW 8
+]
+"69 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/i2c_host/src/i2c1.c
+[e E23204 . `uc
+I2C_ERROR_NONE 0
+I2C_ERROR_ADDR_NACK 1
+I2C_ERROR_DATA_NACK 2
+I2C_ERROR_BUS_COLLISION 3
+]
+"62 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/main.c
+[e E22901 CAN_MSG_OBJ_BRS_MODE `uc
+CAN_NON_BRS_MODE 0
+CAN_BRS_MODE 1
+]
+"63
+[e E22938 CAN_DLC `uc
+DLC_0 0
+DLC_1 1
+DLC_2 2
+DLC_3 3
+DLC_4 4
+DLC_5 5
+DLC_6 6
+DLC_7 7
+DLC_8 8
+DLC_12 9
+DLC_16 10
+DLC_20 11
+DLC_24 12
+DLC_32 13
+DLC_48 14
+DLC_64 15
+]
+"64
+[e E22910 CAN_MSG_OBJ_TYPE `uc
+CAN_2_0_FORMAT 0
+CAN_FD_FORMAT 1
+]
+"65
+[e E22907 CAN_MSG_OBJ_FRAME_TYPE `uc
+CAN_FRAME_DATA 0
+CAN_FRAME_RTR 1
+]
+"66
+[e E22904 CAN_MSG_OBJ_ID_TYPE `uc
+CAN_FRAME_STD 0
+CAN_FRAME_EXT 1
+]
+"70
+[e E22931 CAN_TX_FIFO_STATUS `uc
+CAN_TX_FIFO_FULL 0
+CAN_TX_FIFO_AVAILABLE 1
+]
+[e E22885 CAN_TX_FIFO_CHANNELS `uc
+CAN1_TXQ 0
+CAN_TX_FIFO_MAX 1
+]
+"72
+[e E22913 CAN_TX_MSG_REQUEST_STATUS `uc
+CAN_TX_MSG_REQUEST_SUCCESS 0
+CAN_TX_MSG_REQUEST_DLC_EXCEED_ERROR 1
+CAN_TX_MSG_REQUEST_BRS_ERROR 2
+CAN_TX_MSG_REQUEST_FIFO_FULL 3
+]
+"1 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"152 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+[v _pad pad `(v  1 s 1 pad ]
+"470
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+"955
+[v _xtoa xtoa `(v  1 s 1 xtoa ]
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1546
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"4 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"54 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/main.c
+[v _can_tx can_tx `(v  1 s 1 can_tx ]
+"77
+[v _CAN1_DlcToDataBytesGet@main$F2979 CAN1_DlcToDataBytesGet `(uc  1 s 1 CAN1_DlcToDataBytesGet ]
+"83
+[v _can_event can_event `(v  1 s 1 can_event ]
+"108
+[v _Timer0_CustomHandler Timer0_CustomHandler `(v  1 e 1 0 ]
+"114
+[v _main main `(i  1 e 2 0 ]
+"159 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/can/src/can1.c
+[v _CAN1_DlcToDataBytesGet CAN1_DlcToDataBytesGet `(uc  1 s 1 CAN1_DlcToDataBytesGet ]
+"171
+[v _CAN1_PLSIZEToPayloadBytesGet CAN1_PLSIZEToPayloadBytesGet `(uc  1 s 1 CAN1_PLSIZEToPayloadBytesGet ]
+"183
+[v _CAN1_IsTxChannel CAN1_IsTxChannel `(a  1 s 1 CAN1_IsTxChannel ]
+"194
+[v _CAN1_GetTxFifoStatus CAN1_GetTxFifoStatus `(E23095  1 s 1 CAN1_GetTxFifoStatus ]
+"206
+[v _CAN1_MessageWriteToFifo CAN1_MessageWriteToFifo `(v  1 s 1 CAN1_MessageWriteToFifo ]
+"266
+[v _CAN1_ValidateTransmission CAN1_ValidateTransmission `(E23077  1 s 1 CAN1_ValidateTransmission ]
+"304
+[v _CAN1_RX_FIFO_ResetInfo CAN1_RX_FIFO_ResetInfo `(v  1 s 1 CAN1_RX_FIFO_ResetInfo ]
+"321
+[v _CAN1_IsRxChannel CAN1_IsRxChannel `(a  1 s 1 CAN1_IsRxChannel ]
+"332
+[v _CAN1_GetRxFifoStatus CAN1_GetRxFifoStatus `(uc  1 s 1 CAN1_GetRxFifoStatus ]
+"343
+[v _CAN1_GetRxFifoDepth CAN1_GetRxFifoDepth `(uc  1 s 1 CAN1_GetRxFifoDepth ]
+"355
+[v _CAN1_MessageReadFromFifo CAN1_MessageReadFromFifo `(v  1 s 1 CAN1_MessageReadFromFifo ]
+"406
+[v _CAN1_ReceiveFromFiFo CAN1_ReceiveFromFiFo `(a  1 s 1 CAN1_ReceiveFromFiFo ]
+"454
+[v _CAN1_TX_FIFO_Configuration CAN1_TX_FIFO_Configuration `(v  1 s 1 CAN1_TX_FIFO_Configuration ]
+"472
+[v _CAN1_RX_FIFO_Configuration CAN1_RX_FIFO_Configuration `(v  1 s 1 CAN1_RX_FIFO_Configuration ]
+"490
+[v _CAN1_RX_FIFO_FilterMaskConfiguration CAN1_RX_FIFO_FilterMaskConfiguration `(v  1 s 1 CAN1_RX_FIFO_FilterMaskConfiguration ]
+"522
+[v _CAN1_BitRateConfiguration CAN1_BitRateConfiguration `(v  1 s 1 CAN1_BitRateConfiguration ]
+"551
+[v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
+"598
+[v _CAN1_Deinitialize CAN1_Deinitialize `(v  1 e 1 0 ]
+"653
+[v _CAN1_OperationModeSet CAN1_OperationModeSet `(E23091  1 e 1 0 ]
+"681
+[v _CAN1_OperationModeGet CAN1_OperationModeGet `(E23082  1 e 1 0 ]
+"686
+[v _CAN1_Transmit CAN1_Transmit `(E23077  1 e 1 0 ]
+"710
+[v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E23095  1 e 1 0 ]
+"722
+[v _CAN1_IsTxErrorPassive CAN1_IsTxErrorPassive `(a  1 e 1 0 ]
+"727
+[v _CAN1_IsTxErrorWarning CAN1_IsTxErrorWarning `(a  1 e 1 0 ]
+"732
+[v _CAN1_IsTxErrorActive CAN1_IsTxErrorActive `(a  1 e 1 0 ]
+"744
+[v _CAN1_Receive CAN1_Receive `(a  1 e 1 0 ]
+"763
+[v _CAN1_ReceiveMessageGet CAN1_ReceiveMessageGet `(a  1 e 1 0 ]
+"780
+[v _CAN1_ReceivedMessageCountGet CAN1_ReceivedMessageCountGet `(uc  1 e 1 0 ]
+"831
+[v _CAN1_ReceiveFIFOStatusGet CAN1_ReceiveFIFOStatusGet `(uc  1 e 1 0 ]
+"843
+[v _CAN1_IsRxErrorPassive CAN1_IsRxErrorPassive `(a  1 e 1 0 ]
+"848
+[v _CAN1_IsRxErrorWarning CAN1_IsRxErrorWarning `(a  1 e 1 0 ]
+"853
+[v _CAN1_IsRxErrorActive CAN1_IsRxErrorActive `(a  1 e 1 0 ]
+"865
+[v _CAN1_IsBusOff CAN1_IsBusOff `(a  1 e 1 0 ]
+"870
+[v _CAN1_Sleep CAN1_Sleep `(v  1 e 1 0 ]
+"882
+[v _CAN1_InvalidMessageCallbackRegister CAN1_InvalidMessageCallbackRegister `(v  1 e 1 0 ]
+"890
+[v _CAN1_BusWakeUpActivityCallbackRegister CAN1_BusWakeUpActivityCallbackRegister `(v  1 e 1 0 ]
+"898
+[v _CAN1_BusErrorCallbackRegister CAN1_BusErrorCallbackRegister `(v  1 e 1 0 ]
+"906
+[v _CAN1_ModeChangeCallbackRegister CAN1_ModeChangeCallbackRegister `(v  1 e 1 0 ]
+"914
+[v _CAN1_SystemErrorCallbackRegister CAN1_SystemErrorCallbackRegister `(v  1 e 1 0 ]
+"922
+[v _CAN1_TxAttemptCallbackRegister CAN1_TxAttemptCallbackRegister `(v  1 e 1 0 ]
+"930
+[v _CAN1_RxBufferOverFlowCallbackRegister CAN1_RxBufferOverFlowCallbackRegister `(v  1 e 1 0 ]
+"938
+[v _CAN1_InformationISR CAN1_InformationISR `IIH(v  1 e 1 0 ]
+"954
+[v _CAN1_Tasks CAN1_Tasks `(v  1 e 1 0 ]
+"91 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"134
+[v _I2C1_Deinitialize I2C1_Deinitialize `(v  1 e 1 0 ]
+"150
+[v _I2C1_Write I2C1_Write `(a  1 e 1 0 ]
+"169
+[v _I2C1_Read I2C1_Read `(a  1 e 1 0 ]
+"188
+[v _I2C1_WriteRead I2C1_WriteRead `(a  1 e 1 0 ]
+"207
+[v _I2C1_ErrorGet I2C1_ErrorGet `(E23204  1 e 1 0 ]
+"214
+[v _I2C1_IsBusy I2C1_IsBusy `(a  1 e 1 0 ]
+"219
+[v _I2C1_CallbackRegister I2C1_CallbackRegister `(v  1 e 1 0 ]
+"227
+[v _I2C1_ISR I2C1_ISR `IIH(v  1 e 1 0 ]
+"256
+[v _I2C1_ERROR_ISR I2C1_ERROR_ISR `IIH(v  1 e 1 0 ]
+"292
+[v _I2C1_RX_ISR I2C1_RX_ISR `IIH(v  1 e 1 0 ]
+"297
+[v _I2C1_TX_ISR I2C1_TX_ISR `IIH(v  1 e 1 0 ]
+"305
+[v _I2C1_ReadStart I2C1_ReadStart `(v  1 s 1 I2C1_ReadStart ]
+"316
+[v _I2C1_WriteStart I2C1_WriteStart `(v  1 s 1 I2C1_WriteStart ]
+"331
+[v _I2C1_Close I2C1_Close `(v  1 s 1 I2C1_Close ]
+"342
+[v _I2C1_DefaultCallback I2C1_DefaultCallback `(v  1 s 1 I2C1_DefaultCallback ]
+"350
+[v _I2C1_StartSend I2C1_StartSend `(v  1 s 1 I2C1_StartSend ]
+"355
+[v _I2C1_AddrTransmit I2C1_AddrTransmit `(v  1 s 1 I2C1_AddrTransmit ]
+"360
+[v _I2C1_DataTransmit I2C1_DataTransmit `(v  1 s 1 I2C1_DataTransmit ]
+"365
+[v _I2C1_DataReceive I2C1_DataReceive `(uc  1 s 1 I2C1_DataReceive ]
+"370
+[v _I2C1_CounterSet I2C1_CounterSet `(v  1 s 1 I2C1_CounterSet ]
+"381
+[v _I2C1_BusReset I2C1_BusReset `T(v  1 s 1 I2C1_BusReset ]
+"407
+[v _I2C1_RestartEnable I2C1_RestartEnable `T(v  1 s 1 I2C1_RestartEnable ]
+"412
+[v _I2C1_RestartDisable I2C1_RestartDisable `T(v  1 s 1 I2C1_RestartDisable ]
+"417
+[v _I2C1_StopSend I2C1_StopSend `(v  1 s 1 I2C1_StopSend ]
+"423
+[v _I2C1_IsNack I2C1_IsNack `(a  1 s 1 I2C1_IsNack ]
+"428
+[v _I2C1_IsBusCol I2C1_IsBusCol `(a  1 s 1 I2C1_IsBusCol ]
+"433
+[v _I2C1_IsBusTimeOut I2C1_IsBusTimeOut `(a  1 s 1 I2C1_IsBusTimeOut ]
+"438
+[v _I2C1_IsData I2C1_IsData `(a  1 s 1 I2C1_IsData ]
+"443
+[v _I2C1_IsAddr I2C1_IsAddr `(a  1 s 1 I2C1_IsAddr ]
+"448
+[v _I2C1_InterruptsEnable I2C1_InterruptsEnable `T(v  1 s 1 I2C1_InterruptsEnable ]
+[v i2_I2C1_InterruptsEnable I2C1_InterruptsEnable `T(v  1 s 1 i2_I2C1_InterruptsEnable ]
+"461
+[v _I2C1_InterruptsDisable I2C1_InterruptsDisable `T(v  1 s 1 I2C1_InterruptsDisable ]
+"471
+[v _I2C1_InterruptsClear I2C1_InterruptsClear `T(v  1 s 1 I2C1_InterruptsClear ]
+"476
+[v _I2C1_ErrorFlagsClear I2C1_ErrorFlagsClear `T(v  1 s 1 I2C1_ErrorFlagsClear ]
+"483
+[v _I2C1_BufferClear I2C1_BufferClear `T(v  1 s 1 I2C1_BufferClear ]
+"37 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+"42 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"96
+[v _Default_ISR Default_ISR `IIH(v  1 e 1 0 ]
+"100
+[v _IOC_ISR IOC_ISR `IIH(v  1 e 1 0 ]
+"113
+[v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
+"122
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"131
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"135
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"147
+[v _INT1_ISR INT1_ISR `IIH(v  1 e 1 0 ]
+"156
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"165
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"169
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"181
+[v _INT2_ISR INT2_ISR `IIH(v  1 e 1 0 ]
+"190
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"199
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"203
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"38 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"148
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"37 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"51 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/timer/src/tmr0.c
+[v _Timer0_Initialize Timer0_Initialize `(v  1 e 1 0 ]
+"78
+[v _Timer0_Start Timer0_Start `(v  1 e 1 0 ]
+"83
+[v _Timer0_Stop Timer0_Stop `(v  1 e 1 0 ]
+"113
+[v _Timer0_PeriodCountSet Timer0_PeriodCountSet `(v  1 e 1 0 ]
+"118
+[v _Timer0_OverflowISR Timer0_OverflowISR `IIH(v  1 e 1 0 ]
+"132
+[v _Timer0_OverflowCallbackRegister Timer0_OverflowCallbackRegister `(v  1 e 1 0 ]
+"137
+[v _Timer0_DefaultOverflowCallback Timer0_DefaultOverflowCallback `(v  1 s 1 Timer0_DefaultOverflowCallback ]
+"95 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+"146
+[v _UART1_Deinitialize UART1_Deinitialize `(v  1 e 1 0 ]
+"179
+[v _UART1_TransmitEnable UART1_TransmitEnable `T(v  1 e 1 0 ]
+"184
+[v _UART1_TransmitDisable UART1_TransmitDisable `T(v  1 e 1 0 ]
+"209
+[v _UART1_AutoBaudSet UART1_AutoBaudSet `T(v  1 e 1 0 ]
+"222
+[v _UART1_AutoBaudQuery UART1_AutoBaudQuery `T(a  1 e 1 0 ]
+"242
+[v _UART1_IsRxReady UART1_IsRxReady `(a  1 e 1 0 ]
+"247
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
+"252
+[v _UART1_IsTxDone UART1_IsTxDone `(a  1 e 1 0 ]
+"257
+[v _UART1_ErrorGet UART1_ErrorGet `(ui  1 e 2 0 ]
+"281
+[v _UART1_Read UART1_Read `(uc  1 e 1 0 ]
+"287
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+"299
+[v _putch putch `(v  1 e 1 0 ]
+"309
+[v _UART1_DefaultFramingErrorCallback UART1_DefaultFramingErrorCallback `(v  1 s 1 UART1_DefaultFramingErrorCallback ]
+"314
+[v _UART1_DefaultOverrunErrorCallback UART1_DefaultOverrunErrorCallback `(v  1 s 1 UART1_DefaultOverrunErrorCallback ]
+"319
+[v _UART1_DefaultParityErrorCallback UART1_DefaultParityErrorCallback `(v  1 s 1 UART1_DefaultParityErrorCallback ]
+"324
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+"332
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+"340
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+"118 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"119
+[v _flags flags `uc  1 s 1 flags ]
+"144
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+[s S619 . 1 `uc 1 SWIE 1 0 :1:0 
+`uc 1 HLVDIE 1 0 :1:1 
+`uc 1 OSFIE 1 0 :1:2 
+`uc 1 CSWIE 1 0 :1:3 
+`uc 1 TU16AIE 1 0 :1:4 
+`uc 1 CLC1IE 1 0 :1:5 
+`uc 1 CANIE 1 0 :1:6 
+`uc 1 IOCIE 1 0 :1:7 
+]
+"1301 /Users/sukkinpang/.mchp_packs/Microchip/PIC18F-Q_DFP/1.18.389/xc8/pic/include/proc/pic18f57q84.h
+[u S628 . 1 `S619 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES628  1 e 1 @1182 ]
+[s S2185 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+`uc 1 SPI1TXIE 1 0 :1:1 
+`uc 1 SPI1IE 1 0 :1:2 
+`uc 1 TMR2IE 1 0 :1:3 
+`uc 1 TMR1IE 1 0 :1:4 
+`uc 1 TMR1GIE 1 0 :1:5 
+`uc 1 CCP1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"1495
+[u S2194 . 1 `S2185 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES2194  1 e 1 @1185 ]
+[s S1491 . 1 `uc 1 I2C1RXIE 1 0 :1:0 
+`uc 1 I2C1TXIE 1 0 :1:1 
+`uc 1 I2C1IE 1 0 :1:2 
+`uc 1 I2C1EIE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CLC3IE 1 0 :1:5 
+`uc 1 PWM3PIE 1 0 :1:6 
+`uc 1 PWM3IE 1 0 :1:7 
+]
+"1743
+[u S1500 . 1 `S1491 1 . 1 0 ]
+[v _PIE7bits PIE7bits `VES1500  1 e 1 @1189 ]
+[s S662 . 1 `uc 1 SWIF 1 0 :1:0 
+`uc 1 HLVDIF 1 0 :1:1 
+`uc 1 OSFIF 1 0 :1:2 
+`uc 1 CSWIF 1 0 :1:3 
+`uc 1 TU16AIF 1 0 :1:4 
+`uc 1 CLC1IF 1 0 :1:5 
+`uc 1 CANIF 1 0 :1:6 
+`uc 1 IOCIF 1 0 :1:7 
+]
+"2286
+[u S671 . 1 `S662 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES671  1 e 1 @1198 ]
+[s S1871 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 ZCDIF 1 0 :1:1 
+`uc 1 ADIF 1 0 :1:2 
+`uc 1 ACTIF 1 0 :1:3 
+`uc 1 C1IF 1 0 :1:4 
+`uc 1 SMT1IF 1 0 :1:5 
+`uc 1 SMT1PRAIF 1 0 :1:6 
+`uc 1 SMT1PWAIF 1 0 :1:7 
+]
+"2348
+[u S1880 . 1 `S1871 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1880  1 e 1 @1199 ]
+[s S2164 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+`uc 1 SPI1TXIF 1 0 :1:1 
+`uc 1 SPI1IF 1 0 :1:2 
+`uc 1 TMR2IF 1 0 :1:3 
+`uc 1 TMR1IF 1 0 :1:4 
+`uc 1 TMR1GIF 1 0 :1:5 
+`uc 1 CCP1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"2480
+[u S2173 . 1 `S2164 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES2173  1 e 1 @1201 ]
+[s S1902 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 CLC2IF 1 0 :1:1 
+`uc 1 CWG1IF 1 0 :1:2 
+`uc 1 NCO1IF 1 0 :1:3 
+`uc 1 DMA2SCNTIF 1 0 :1:4 
+`uc 1 DMA2DCNTIF 1 0 :1:5 
+`uc 1 DMA2ORIF 1 0 :1:6 
+`uc 1 DMA2AIF 1 0 :1:7 
+]
+"2666
+[u S1911 . 1 `S1902 1 . 1 0 ]
+[v _PIR6bits PIR6bits `VES1911  1 e 1 @1204 ]
+[s S1933 . 1 `uc 1 INT2IF 1 0 :1:0 
+`uc 1 CLC5IF 1 0 :1:1 
+`uc 1 CWG2IF 1 0 :1:2 
+`uc 1 NCO2IF 1 0 :1:3 
+`uc 1 DMA3SCNTIF 1 0 :1:4 
+`uc 1 DMA3DCNTIF 1 0 :1:5 
+`uc 1 DMA3ORIF 1 0 :1:6 
+`uc 1 DMA3AIF 1 0 :1:7 
+]
+"2904
+[u S1942 . 1 `S1933 1 . 1 0 ]
+[v _PIR10bits PIR10bits `VES1942  1 e 1 @1208 ]
+"3254
+[v _LATA LATA `VEuc  1 e 1 @1214 ]
+"3316
+[v _LATB LATB `VEuc  1 e 1 @1215 ]
+"3378
+[v _LATC LATC `VEuc  1 e 1 @1216 ]
+"3440
+[v _LATD LATD `VEuc  1 e 1 @1217 ]
+"3502
+[v _LATE LATE `VEuc  1 e 1 @1218 ]
+"3534
+[v _LATF LATF `VEuc  1 e 1 @1219 ]
+[s S2945 . 1 `uc 1 LATF0 1 0 :1:0 
+`uc 1 LATF1 1 0 :1:1 
+`uc 1 LATF2 1 0 :1:2 
+`uc 1 LATF3 1 0 :1:3 
+`uc 1 LATF4 1 0 :1:4 
+`uc 1 LATF5 1 0 :1:5 
+`uc 1 LATF6 1 0 :1:6 
+`uc 1 LATF7 1 0 :1:7 
+]
+"3551
+[u S2954 . 1 `S2945 1 . 1 0 ]
+[v _LATFbits LATFbits `VES2954  1 e 1 @1219 ]
+"3596
+[v _TRISA TRISA `VEuc  1 e 1 @1222 ]
+"3658
+[v _TRISB TRISB `VEuc  1 e 1 @1223 ]
+"3720
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"3782
+[v _TRISD TRISD `VEuc  1 e 1 @1225 ]
+"3844
+[v _TRISE TRISE `VEuc  1 e 1 @1226 ]
+"3876
+[v _TRISF TRISF `VEuc  1 e 1 @1227 ]
+[s S1770 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"4306
+[s S1778 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S1781 . 1 `S1770 1 . 1 0 `S1778 1 . 1 0 ]
+[v _INTCON0bits INTCON0bits `VES1781  1 e 1 @1238 ]
+"5294
+[v _ACTCON ACTCON `VEuc  1 e 1 @172 ]
+"5335
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @173 ]
+"5475
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @175 ]
+"5515
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @176 ]
+"5573
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @177 ]
+"5775
+[v _OSCEN OSCEN `VEuc  1 e 1 @179 ]
+"8943
+[v _C1CONL C1CONL `VEuc  1 e 1 @256 ]
+"9013
+[v _C1CONH C1CONH `VEuc  1 e 1 @257 ]
+[s S362 . 1 `uc 1 WAKFIL 1 0 :1:0 
+`uc 1 WFT 1 0 :2:1 
+`uc 1 BUSY 1 0 :1:3 
+`uc 1 BRSDIS 1 0 :1:4 
+`uc 1 SIDL 1 0 :1:5 
+`uc 1 FRZ 1 0 :1:6 
+`uc 1 ON 1 0 :1:7 
+]
+"9034
+[s S370 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WFT0 1 0 :1:1 
+`uc 1 WFT1 1 0 :1:2 
+]
+[u S374 . 1 `S362 1 . 1 0 `S370 1 . 1 0 ]
+[v _C1CONHbits C1CONHbits `VES374  1 e 1 @257 ]
+"9084
+[v _C1CONU C1CONU `VEuc  1 e 1 @258 ]
+[s S454 . 1 `uc 1 RTXAT 1 0 :1:0 
+`uc 1 ESIGM 1 0 :1:1 
+`uc 1 SERR2LOM 1 0 :1:2 
+`uc 1 STEF 1 0 :1:3 
+`uc 1 TXQEN 1 0 :1:4 
+`uc 1 OPMOD 1 0 :3:5 
+]
+"9105
+[s S461 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 OPMOD0 1 0 :1:5 
+`uc 1 OPMOD1 1 0 :1:6 
+`uc 1 OPMOD2 1 0 :1:7 
+]
+[u S466 . 1 `S454 1 . 1 0 `S461 1 . 1 0 ]
+[v _C1CONUbits C1CONUbits `VES466  1 e 1 @258 ]
+"9155
+[v _C1CONT C1CONT `VEuc  1 e 1 @259 ]
+[s S482 . 1 `uc 1 REQOP 1 0 :3:0 
+`uc 1 ABAT 1 0 :1:3 
+`uc 1 TXBWS 1 0 :4:4 
+]
+"9177
+[s S486 . 1 `uc 1 REQOP0 1 0 :1:0 
+`uc 1 REQOP1 1 0 :1:1 
+`uc 1 REQOP2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXBWS0 1 0 :1:4 
+`uc 1 TXBWS1 1 0 :1:5 
+`uc 1 TXBWS2 1 0 :1:6 
+`uc 1 TXBWS3 1 0 :1:7 
+]
+[u S495 . 1 `S482 1 . 1 0 `S486 1 . 1 0 ]
+[v _C1CONTbits C1CONTbits `VES495  1 e 1 @259 ]
+"9232
+[v _C1NBTCFGL C1NBTCFGL `VEuc  1 e 1 @260 ]
+"9296
+[v _C1NBTCFGH C1NBTCFGH `VEuc  1 e 1 @261 ]
+"9360
+[v _C1NBTCFGU C1NBTCFGU `VEuc  1 e 1 @262 ]
+"9430
+[v _C1NBTCFGT C1NBTCFGT `VEuc  1 e 1 @263 ]
+"9500
+[v _C1DBTCFGL C1DBTCFGL `VEuc  1 e 1 @264 ]
+"9546
+[v _C1DBTCFGH C1DBTCFGH `VEuc  1 e 1 @265 ]
+"9592
+[v _C1DBTCFGU C1DBTCFGU `VEuc  1 e 1 @266 ]
+"9644
+[v _C1DBTCFGT C1DBTCFGT `VEuc  1 e 1 @267 ]
+"9714
+[v _C1TDCL C1TDCL `VEuc  1 e 1 @268 ]
+"9772
+[v _C1TDCH C1TDCH `VEuc  1 e 1 @269 ]
+"9836
+[v _C1TDCU C1TDCU `VEuc  1 e 1 @270 ]
+"9870
+[v _C1TDCT C1TDCT `VEuc  1 e 1 @271 ]
+[s S685 . 1 `uc 1 TXIF 1 0 :1:0 
+`uc 1 RXIF 1 0 :1:1 
+`uc 1 TBCIF 1 0 :1:2 
+`uc 1 MODIF 1 0 :1:3 
+`uc 1 TEFIF 1 0 :1:4 
+]
+"10420
+[u S691 . 1 `S685 1 . 1 0 ]
+[v _C1INTLbits C1INTLbits `VES691  1 e 1 @284 ]
+[s S512 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TXATIF 1 0 :1:2 
+`uc 1 RXOVIF 1 0 :1:3 
+`uc 1 SERRIF 1 0 :1:4 
+`uc 1 CERRIF 1 0 :1:5 
+`uc 1 WAKIF 1 0 :1:6 
+`uc 1 IVMIF 1 0 :1:7 
+]
+"10466
+[u S520 . 1 `S512 1 . 1 0 ]
+[v _C1INTHbits C1INTHbits `VES520  1 e 1 @285 ]
+[s S600 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TXATIE 1 0 :1:2 
+`uc 1 RXOVIE 1 0 :1:3 
+`uc 1 SERRIE 1 0 :1:4 
+`uc 1 CERRIE 1 0 :1:5 
+`uc 1 WAKIE 1 0 :1:6 
+`uc 1 IVMIE 1 0 :1:7 
+]
+"10561
+[u S608 . 1 `S600 1 . 1 0 ]
+[v _C1INTTbits C1INTTbits `VES608  1 e 1 @287 ]
+"10628
+[v _GIE GIE `VEb  1 e 0 @9911 ]
+[s S574 . 1 `uc 1 RERRCNT 1 0 :8:0 
+]
+"12043
+[s S576 . 1 `uc 1 RERRCNT0 1 0 :1:0 
+`uc 1 RERRCNT1 1 0 :1:1 
+`uc 1 RERRCNT2 1 0 :1:2 
+`uc 1 RERRCNT3 1 0 :1:3 
+`uc 1 RERRCNT4 1 0 :1:4 
+`uc 1 RERRCNT5 1 0 :1:5 
+`uc 1 RERRCNT6 1 0 :1:6 
+`uc 1 RERRCNT7 1 0 :1:7 
+]
+[u S585 . 1 `S574 1 . 1 0 `S576 1 . 1 0 ]
+[v _C1TRECLbits C1TRECLbits `VES585  1 e 1 @308 ]
+[s S548 . 1 `uc 1 TERRCNT 1 0 :8:0 
+]
+"12113
+[s S550 . 1 `uc 1 TERRCNT0 1 0 :1:0 
+`uc 1 TERRCNT1 1 0 :1:1 
+`uc 1 TERRCNT2 1 0 :1:2 
+`uc 1 TERRCNT3 1 0 :1:3 
+`uc 1 TERRCNT4 1 0 :1:4 
+`uc 1 TERRCNT5 1 0 :1:5 
+`uc 1 TERRCNT6 1 0 :1:6 
+`uc 1 TERRCNT7 1 0 :1:7 
+]
+[u S559 . 1 `S548 1 . 1 0 `S550 1 . 1 0 ]
+[v _C1TRECHbits C1TRECHbits `VES559  1 e 1 @309 ]
+[s S531 . 1 `uc 1 EWARN 1 0 :1:0 
+`uc 1 RXWARN 1 0 :1:1 
+`uc 1 TXWARN 1 0 :1:2 
+`uc 1 RXBP 1 0 :1:3 
+`uc 1 TXBP 1 0 :1:4 
+`uc 1 TXBO 1 0 :1:5 
+]
+"12178
+[u S538 . 1 `S531 1 . 1 0 ]
+[v _C1TRECUbits C1TRECUbits `VES538  1 e 1 @310 ]
+"13238
+[v _C1FIFOBAL C1FIFOBAL `VEuc  1 e 1 @332 ]
+"13308
+[v _C1FIFOBAH C1FIFOBAH `VEuc  1 e 1 @333 ]
+"13518
+[v _C1TXQCONL C1TXQCONL `VEuc  1 e 1 @336 ]
+"13559
+[v _C1TXQCONH C1TXQCONH `VEuc  1 e 1 @337 ]
+"13591
+[v _C1TXQCONU C1TXQCONU `VEuc  1 e 1 @338 ]
+"13661
+[v _C1TXQCONT C1TXQCONT `VEuc  1 e 1 @339 ]
+[s S702 . 1 `uc 1 TXQNIF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TXQEIF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 TXATIF 1 0 :1:4 
+`uc 1 TXERR 1 0 :1:5 
+`uc 1 TXLARB 1 0 :1:6 
+`uc 1 TXABT 1 0 :1:7 
+]
+"13754
+[u S711 . 1 `S702 1 . 1 0 ]
+[v _C1TXQSTALbits C1TXQSTALbits `VES711  1 e 1 @340 ]
+"14149
+[v _C1FIFOCON1L C1FIFOCON1L `VEuc  1 e 1 @348 ]
+"14211
+[v _C1FIFOCON1H C1FIFOCON1H `VEuc  1 e 1 @349 ]
+"14243
+[v _C1FIFOCON1U C1FIFOCON1U `VEuc  1 e 1 @350 ]
+"14313
+[v _C1FIFOCON1T C1FIFOCON1T `VEuc  1 e 1 @351 ]
+[s S724 . 1 `uc 1 TFNRFNIF 1 0 :1:0 
+`uc 1 TFHRFHIF 1 0 :1:1 
+`uc 1 TFERFFIF 1 0 :1:2 
+`uc 1 RXOVIF 1 0 :1:3 
+`uc 1 TXATIF 1 0 :1:4 
+`uc 1 TXERR 1 0 :1:5 
+`uc 1 TXLARB 1 0 :1:6 
+`uc 1 TXABT 1 0 :1:7 
+]
+"14413
+[u S733 . 1 `S724 1 . 1 0 ]
+[v _C1FIFOSTA1Lbits C1FIFOSTA1Lbits `VES733  1 e 1 @352 ]
+[s S404 . 1 `uc 1 F0BP 1 0 :5:0 
+`uc 1 . 1 0 :2:5 
+`uc 1 FLTEN0 1 0 :1:7 
+]
+"16168
+[s S408 . 1 `uc 1 F0BP0 1 0 :1:0 
+`uc 1 F0BP1 1 0 :1:1 
+`uc 1 F0BP2 1 0 :1:2 
+`uc 1 F0BP3 1 0 :1:3 
+`uc 1 F0BP4 1 0 :1:4 
+]
+[u S414 . 1 `S404 1 . 1 0 `S408 1 . 1 0 ]
+[v _C1FLTCON0Lbits C1FLTCON0Lbits `VES414  1 e 1 @384 ]
+"16864
+[v _C1FLTOBJ0L C1FLTOBJ0L `VEuc  1 e 1 @396 ]
+"16934
+[v _C1FLTOBJ0H C1FLTOBJ0H `VEuc  1 e 1 @397 ]
+"17010
+[v _C1FLTOBJ0U C1FLTOBJ0U `VEuc  1 e 1 @398 ]
+"17080
+[v _C1FLTOBJ0T C1FLTOBJ0T `VEuc  1 e 1 @399 ]
+"17151
+[v _C1MASK0L C1MASK0L `VEuc  1 e 1 @400 ]
+"17221
+[v _C1MASK0H C1MASK0H `VEuc  1 e 1 @401 ]
+"17297
+[v _C1MASK0U C1MASK0U `VEuc  1 e 1 @402 ]
+"17367
+[v _C1MASK0T C1MASK0T `VEuc  1 e 1 @403 ]
+"24715
+[v _RC3PPS RC3PPS `VEuc  1 e 1 @532 ]
+"24765
+[v _RC4PPS RC4PPS `VEuc  1 e 1 @533 ]
+"24965
+[v _RD0PPS RD0PPS `VEuc  1 e 1 @537 ]
+"25515
+[v _RF0PPS RF0PPS `VEuc  1 e 1 @553 ]
+"25915
+[v _CANRXPPS CANRXPPS `VEuc  1 e 1 @573 ]
+"29726
+[v _I2C1SDAPPS I2C1SDAPPS `VEuc  1 e 1 @624 ]
+"29792
+[v _I2C1SCLPPS I2C1SCLPPS `VEuc  1 e 1 @625 ]
+"29858
+[v _U1RXPPS U1RXPPS `VEuc  1 e 1 @626 ]
+"30554
+[v _RC4I2C RC4I2C `VEuc  1 e 1 @646 ]
+"30686
+[v _RC3I2C RC3I2C `VEuc  1 e 1 @647 ]
+"30818
+[v _RB2I2C RB2I2C `VEuc  1 e 1 @648 ]
+"30950
+[v _RB1I2C RB1I2C `VEuc  1 e 1 @649 ]
+"31082
+[v _I2C1RXB I2C1RXB `VEuc  1 e 1 @650 ]
+"31102
+[v _I2C1TXB I2C1TXB `VEuc  1 e 1 @651 ]
+"31122
+[v _I2C1CNTL I2C1CNTL `VEuc  1 e 1 @652 ]
+"31192
+[v _I2C1CNTH I2C1CNTH `VEuc  1 e 1 @653 ]
+"31282
+[v _I2C1ADB1 I2C1ADB1 `VEuc  1 e 1 @655 ]
+"31384
+[v _I2C1CON0 I2C1CON0 `VEuc  1 e 1 @660 ]
+[s S1206 . 1 `uc 1 MODE 1 0 :3:0 
+`uc 1 MDR 1 0 :1:3 
+`uc 1 CSTR 1 0 :1:4 
+`uc 1 S 1 0 :1:5 
+`uc 1 RSEN 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"31406
+[s S1213 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 I2CEN 1 0 :1:7 
+]
+[u S1219 . 1 `S1206 1 . 1 0 `S1213 1 . 1 0 ]
+[v _I2C1CON0bits I2C1CON0bits `VES1219  1 e 1 @660 ]
+"31461
+[v _I2C1CON1 I2C1CON1 `VEuc  1 e 1 @661 ]
+[s S1470 . 1 `uc 1 CSD 1 0 :1:0 
+`uc 1 TXU 1 0 :1:1 
+`uc 1 RXO 1 0 :1:2 
+`uc 1 P 1 0 :1:3 
+`uc 1 ACKT 1 0 :1:4 
+`uc 1 ACKSTAT 1 0 :1:5 
+`uc 1 ACKDT 1 0 :1:6 
+`uc 1 ACKCNT 1 0 :1:7 
+]
+"31478
+[u S1479 . 1 `S1470 1 . 1 0 ]
+[v _I2C1CON1bits I2C1CON1bits `VES1479  1 e 1 @661 ]
+"31523
+[v _I2C1CON2 I2C1CON2 `VEuc  1 e 1 @662 ]
+"31599
+[v _I2C1ERR I2C1ERR `VEuc  1 e 1 @663 ]
+[s S1367 . 1 `uc 1 NACKIE 1 0 :1:0 
+`uc 1 BCLIE 1 0 :1:1 
+`uc 1 BTOIE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 NACKIF 1 0 :1:4 
+`uc 1 BCLIF 1 0 :1:5 
+`uc 1 BTOIF 1 0 :1:6 
+]
+"31624
+[s S1375 . 1 `uc 1 NACK1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 BTO1IE 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 NACK1IF 1 0 :1:4 
+`uc 1 BCL1IF 1 0 :1:5 
+`uc 1 BTO1IF 1 0 :1:6 
+]
+[u S1383 . 1 `S1367 1 . 1 0 `S1375 1 . 1 0 ]
+[v _I2C1ERRbits I2C1ERRbits `VES1383  1 e 1 @663 ]
+[s S1303 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 D 1 0 :1:3 
+`uc 1 R 1 0 :1:4 
+`uc 1 MMA 1 0 :1:5 
+`uc 1 SMA 1 0 :1:6 
+`uc 1 BFRE 1 0 :1:7 
+]
+"31719
+[s S1310 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 DATA 1 0 :1:3 
+`uc 1 READ 1 0 :1:4 
+]
+[s S1314 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_ADDRESS 1 0 :1:3 
+`uc 1 NOT_WRITE 1 0 :1:4 
+]
+[s S1318 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_A 1 0 :1:3 
+`uc 1 NOT_W 1 0 :1:4 
+]
+[u S1322 . 1 `S1303 1 . 1 0 `S1310 1 . 1 0 `S1314 1 . 1 0 `S1318 1 . 1 0 ]
+[v _I2C1STAT0bits I2C1STAT0bits `VES1322  1 e 1 @664 ]
+"31779
+[v _I2C1STAT1 I2C1STAT1 `VEuc  1 e 1 @665 ]
+[s S1513 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 CLRBF 1 0 :1:2 
+`uc 1 RXRE 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TXWE 1 0 :1:7 
+]
+"31796
+[u S1522 . 1 `S1513 1 . 1 0 ]
+[v _I2C1STAT1bits I2C1STAT1bits `VES1522  1 e 1 @665 ]
+"31826
+[v _I2C1PIR I2C1PIR `VEuc  1 e 1 @666 ]
+[s S1246 . 1 `uc 1 SCIF 1 0 :1:0 
+`uc 1 RSCIF 1 0 :1:1 
+`uc 1 PCIF 1 0 :1:2 
+`uc 1 ADRIF 1 0 :1:3 
+`uc 1 WRIF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIF 1 0 :1:6 
+`uc 1 CNTIF 1 0 :1:7 
+]
+"31853
+[s S1255 . 1 `uc 1 SC1IF 1 0 :1:0 
+`uc 1 RSC1IF 1 0 :1:1 
+`uc 1 PC1IF 1 0 :1:2 
+`uc 1 ADR1IF 1 0 :1:3 
+`uc 1 WR1IF 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IF 1 0 :1:6 
+`uc 1 CNT1IF 1 0 :1:7 
+]
+[u S1264 . 1 `S1246 1 . 1 0 `S1255 1 . 1 0 ]
+[v _I2C1PIRbits I2C1PIRbits `VES1264  1 e 1 @666 ]
+"31928
+[v _I2C1PIE I2C1PIE `VEuc  1 e 1 @667 ]
+[s S1166 . 1 `uc 1 SCIE 1 0 :1:0 
+`uc 1 RSCIE 1 0 :1:1 
+`uc 1 PCIE 1 0 :1:2 
+`uc 1 ADRIE 1 0 :1:3 
+`uc 1 WRIE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKTIE 1 0 :1:6 
+`uc 1 CNTIE 1 0 :1:7 
+]
+"31955
+[s S1175 . 1 `uc 1 SC1IE 1 0 :1:0 
+`uc 1 RSC1IE 1 0 :1:1 
+`uc 1 PC1IE 1 0 :1:2 
+`uc 1 ADR1IE 1 0 :1:3 
+`uc 1 WR1IE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ACKT1IE 1 0 :1:6 
+`uc 1 CNT1IE 1 0 :1:7 
+]
+[u S1184 . 1 `S1166 1 . 1 0 `S1175 1 . 1 0 ]
+[v _I2C1PIEbits I2C1PIEbits `VES1184  1 e 1 @667 ]
+"32100
+[v _I2C1BAUD I2C1BAUD `VEuc  1 e 1 @669 ]
+"32120
+[v _I2C1CLK I2C1CLK `VEuc  1 e 1 @670 ]
+"32212
+[v _I2C1BTOC I2C1BTOC `VEuc  1 e 1 @671 ]
+"32292
+[v _U1RXB U1RXB `VEuc  1 e 1 @673 ]
+"32330
+[v _U1RXCHK U1RXCHK `VEuc  1 e 1 @674 ]
+"32350
+[v _U1TXB U1TXB `VEuc  1 e 1 @675 ]
+"32388
+[v _U1TXCHK U1TXCHK `VEuc  1 e 1 @676 ]
+"32415
+[v _U1P1L U1P1L `VEuc  1 e 1 @677 ]
+"32435
+[v _U1P1H U1P1H `VEuc  1 e 1 @678 ]
+"32462
+[v _U1P2L U1P2L `VEuc  1 e 1 @679 ]
+"32482
+[v _U1P2H U1P2H `VEuc  1 e 1 @680 ]
+"32509
+[v _U1P3L U1P3L `VEuc  1 e 1 @681 ]
+"32529
+[v _U1P3H U1P3H `VEuc  1 e 1 @682 ]
+"32549
+[v _U1CON0 U1CON0 `VEuc  1 e 1 @683 ]
+[s S2562 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"32582
+[s S2567 . 1 `uc 1 U1MODE 1 0 :4:0 
+`uc 1 U1RXEN 1 0 :1:4 
+`uc 1 U1TXEN 1 0 :1:5 
+`uc 1 U1ABDEN 1 0 :1:6 
+`uc 1 U1BRGS 1 0 :1:7 
+]
+[s S2573 . 1 `uc 1 U1MODE0 1 0 :1:0 
+`uc 1 U1MODE1 1 0 :1:1 
+`uc 1 U1MODE2 1 0 :1:2 
+`uc 1 U1MODE3 1 0 :1:3 
+]
+[s S2578 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 RXEN 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 ABDEN 1 0 :1:6 
+`uc 1 BRGS 1 0 :1:7 
+]
+[u S2584 . 1 `S2562 1 . 1 0 `S2567 1 . 1 0 `S2573 1 . 1 0 `S2578 1 . 1 0 ]
+[v _U1CON0bits U1CON0bits `VES2584  1 e 1 @683 ]
+"32677
+[v _U1CON1 U1CON1 `VEuc  1 e 1 @684 ]
+[s S2526 . 1 `uc 1 SENDB 1 0 :1:0 
+`uc 1 BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RXBIMD 1 0 :1:3 
+`uc 1 WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 ON 1 0 :1:7 
+]
+"32702
+[s S2534 . 1 `uc 1 U1SENDB 1 0 :1:0 
+`uc 1 U1BRKOVR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 U1RXBIMD 1 0 :1:3 
+`uc 1 U1WUE 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 U1ON 1 0 :1:7 
+]
+[u S2542 . 1 `S2526 1 . 1 0 `S2534 1 . 1 0 ]
+[v _U1CON1bits U1CON1bits `VES2542  1 e 1 @684 ]
+"32757
+[v _U1CON2 U1CON2 `VEuc  1 e 1 @685 ]
+"32906
+[v _U1BRGL U1BRGL `VEuc  1 e 1 @686 ]
+"32926
+[v _U1BRGH U1BRGH `VEuc  1 e 1 @687 ]
+"32946
+[v _U1FIFO U1FIFO `VEuc  1 e 1 @688 ]
+[s S2680 . 1 `uc 1 RXBF 1 0 :1:0 
+`uc 1 RXBE 1 0 :1:1 
+`uc 1 XON 1 0 :1:2 
+`uc 1 RXIDL 1 0 :1:3 
+`uc 1 TXBF 1 0 :1:4 
+`uc 1 TXBE 1 0 :1:5 
+`uc 1 STPMD 1 0 :1:6 
+`uc 1 TXWRE 1 0 :1:7 
+]
+"32981
+[s S2689 . 1 `uc 1 U1RXBF 1 0 :1:0 
+`uc 1 U1RXBE 1 0 :1:1 
+`uc 1 U1XON 1 0 :1:2 
+`uc 1 U1RXIDL 1 0 :1:3 
+`uc 1 U1TXBF 1 0 :1:4 
+`uc 1 U1TXBE 1 0 :1:5 
+`uc 1 U1STPMD 1 0 :1:6 
+`uc 1 U1TXWRE 1 0 :1:7 
+]
+"32981
+[s S2698 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 U1RCIDL 1 0 :1:3 
+]
+"32981
+[s S2701 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 RCIDL 1 0 :1:3 
+]
+"32981
+[u S2704 . 1 `S2680 1 . 1 0 `S2689 1 . 1 0 `S2698 1 . 1 0 `S2701 1 . 1 0 ]
+"32981
+"32981
+[v _U1FIFObits U1FIFObits `VES2704  1 e 1 @688 ]
+"33076
+[v _U1UIR U1UIR `VEuc  1 e 1 @689 ]
+[s S2612 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 ABDIF 1 0 :1:6 
+`uc 1 WUIF 1 0 :1:7 
+]
+"33097
+[s S2618 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 U1ABDIE 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 U1ABDIF 1 0 :1:6 
+`uc 1 U1WUIF 1 0 :1:7 
+]
+"33097
+[u S2624 . 1 `S2612 1 . 1 0 `S2618 1 . 1 0 ]
+"33097
+"33097
+[v _U1UIRbits U1UIRbits `VES2624  1 e 1 @689 ]
+"33132
+[v _U1ERRIR U1ERRIR `VEuc  1 e 1 @690 ]
+[s S2640 . 1 `uc 1 TXCIF 1 0 :1:0 
+`uc 1 RXFOIF 1 0 :1:1 
+`uc 1 RXBKIF 1 0 :1:2 
+`uc 1 FERIF 1 0 :1:3 
+`uc 1 CERIF 1 0 :1:4 
+`uc 1 ABDOVF 1 0 :1:5 
+`uc 1 PERIF 1 0 :1:6 
+`uc 1 TXMTIF 1 0 :1:7 
+]
+"33159
+[s S2649 . 1 `uc 1 U1TXCIF 1 0 :1:0 
+`uc 1 U1RXFOIF 1 0 :1:1 
+`uc 1 U1RXBKIF 1 0 :1:2 
+`uc 1 U1FERIF 1 0 :1:3 
+`uc 1 U1CERIF 1 0 :1:4 
+`uc 1 U1ABDOVF 1 0 :1:5 
+`uc 1 U1PERIF 1 0 :1:6 
+`uc 1 U1TXMTIF 1 0 :1:7 
+]
+"33159
+[u S2658 . 1 `S2640 1 . 1 0 `S2649 1 . 1 0 ]
+"33159
+"33159
+[v _U1ERRIRbits U1ERRIRbits `VES2658  1 e 1 @690 ]
+"33244
+[v _U1ERRIE U1ERRIE `VEuc  1 e 1 @691 ]
+"39367
+[v _TMR0L TMR0L `VEuc  1 e 1 @792 ]
+"39505
+[v _TMR0H TMR0H `VEuc  1 e 1 @793 ]
+"39759
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @794 ]
+[s S2207 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"39787
+[s S2213 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"39787
+[s S2219 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+"39787
+[u S2225 . 1 `S2207 1 . 1 0 `S2213 1 . 1 0 `S2219 1 . 1 0 ]
+"39787
+"39787
+[v _T0CON0bits T0CON0bits `VES2225  1 e 1 @794 ]
+"39857
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @795 ]
+[s S1808 . 1 `uc 1 SWIP 1 0 :1:0 
+`uc 1 HLVDIP 1 0 :1:1 
+`uc 1 OSFIP 1 0 :1:2 
+`uc 1 CSWIP 1 0 :1:3 
+`uc 1 TU16AIP 1 0 :1:4 
+`uc 1 CLC1IP 1 0 :1:5 
+`uc 1 CANIP 1 0 :1:6 
+`uc 1 IOCIP 1 0 :1:7 
+]
+"47727
+[u S1817 . 1 `S1808 1 . 1 0 ]
+"47727
+"47727
+[v _IPR0bits IPR0bits `VES1817  1 e 1 @866 ]
+[s S1829 . 1 `uc 1 SPI1RXIP 1 0 :1:0 
+`uc 1 SPI1TXIP 1 0 :1:1 
+`uc 1 SPI1IP 1 0 :1:2 
+`uc 1 TMR2IP 1 0 :1:3 
+`uc 1 TMR1IP 1 0 :1:4 
+`uc 1 TMR1GIP 1 0 :1:5 
+`uc 1 CCP1IP 1 0 :1:6 
+`uc 1 TMR0IP 1 0 :1:7 
+]
+"47921
+[u S1838 . 1 `S1829 1 . 1 0 ]
+"47921
+"47921
+[v _IPR3bits IPR3bits `VES1838  1 e 1 @869 ]
+[s S1850 . 1 `uc 1 I2C1RXIP 1 0 :1:0 
+`uc 1 I2C1TXIP 1 0 :1:1 
+`uc 1 I2C1IP 1 0 :1:2 
+`uc 1 I2C1EIP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CLC3IP 1 0 :1:5 
+`uc 1 PWM3PIP 1 0 :1:6 
+`uc 1 PWM3IP 1 0 :1:7 
+]
+"48169
+[u S1859 . 1 `S1850 1 . 1 0 ]
+"48169
+"48169
+[v _IPR7bits IPR7bits `VES1859  1 e 1 @873 ]
+"59260
+[v _ANSELA ANSELA `VEuc  1 e 1 @1024 ]
+"59322
+[v _WPUA WPUA `VEuc  1 e 1 @1025 ]
+"59384
+[v _ODCONA ODCONA `VEuc  1 e 1 @1026 ]
+"59446
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @1027 ]
+"59508
+[v _INLVLA INLVLA `VEuc  1 e 1 @1028 ]
+"59570
+[v _IOCAP IOCAP `VEuc  1 e 1 @1029 ]
+"59632
+[v _IOCAN IOCAN `VEuc  1 e 1 @1030 ]
+"59694
+[v _IOCAF IOCAF `VEuc  1 e 1 @1031 ]
+"59756
+[v _ANSELB ANSELB `VEuc  1 e 1 @1032 ]
+"59818
+[v _WPUB WPUB `VEuc  1 e 1 @1033 ]
+"59880
+[v _ODCONB ODCONB `VEuc  1 e 1 @1034 ]
+"59942
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @1035 ]
+"60004
+[v _INLVLB INLVLB `VEuc  1 e 1 @1036 ]
+"60066
+[v _IOCBP IOCBP `VEuc  1 e 1 @1037 ]
+"60128
+[v _IOCBN IOCBN `VEuc  1 e 1 @1038 ]
+"60190
+[v _IOCBF IOCBF `VEuc  1 e 1 @1039 ]
+"60252
+[v _ANSELC ANSELC `VEuc  1 e 1 @1040 ]
+"60314
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+"60376
+[v _ODCONC ODCONC `VEuc  1 e 1 @1042 ]
+"60438
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @1043 ]
+"60500
+[v _INLVLC INLVLC `VEuc  1 e 1 @1044 ]
+"60562
+[v _IOCCP IOCCP `VEuc  1 e 1 @1045 ]
+"60624
+[v _IOCCN IOCCN `VEuc  1 e 1 @1046 ]
+"60686
+[v _IOCCF IOCCF `VEuc  1 e 1 @1047 ]
+"60748
+[v _ANSELD ANSELD `VEuc  1 e 1 @1048 ]
+"60810
+[v _WPUD WPUD `VEuc  1 e 1 @1049 ]
+"60872
+[v _ODCOND ODCOND `VEuc  1 e 1 @1050 ]
+"60934
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @1051 ]
+"60996
+[v _INLVLD INLVLD `VEuc  1 e 1 @1052 ]
+"61058
+[v _ANSELE ANSELE `VEuc  1 e 1 @1056 ]
+"61090
+[v _WPUE WPUE `VEuc  1 e 1 @1057 ]
+"61128
+[v _ODCONE ODCONE `VEuc  1 e 1 @1058 ]
+"61160
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @1059 ]
+"61192
+[v _INLVLE INLVLE `VEuc  1 e 1 @1060 ]
+"61230
+[v _IOCEP IOCEP `VEuc  1 e 1 @1061 ]
+"61251
+[v _IOCEN IOCEN `VEuc  1 e 1 @1062 ]
+"61272
+[v _IOCEF IOCEF `VEuc  1 e 1 @1063 ]
+"61293
+[v _ANSELF ANSELF `VEuc  1 e 1 @1064 ]
+"61355
+[v _WPUF WPUF `VEuc  1 e 1 @1065 ]
+"61417
+[v _ODCONF ODCONF `VEuc  1 e 1 @1066 ]
+"61479
+[v _SLRCONF SLRCONF `VEuc  1 e 1 @1067 ]
+"61541
+[v _INLVLF INLVLF `VEuc  1 e 1 @1068 ]
+"64273
+[v _FSCMCON FSCMCON `VEuc  1 e 1 @1112 ]
+"64323
+[v _IVTLOCK IVTLOCK `VEuc  1 e 1 @1113 ]
+[s S1798 . 1 `uc 1 IVTLOCKED 1 0 :1:0 
+]
+"64333
+[u S1800 . 1 `S1798 1 . 1 0 ]
+"64333
+"64333
+[v _IVTLOCKbits IVTLOCKbits `VES1800  1 e 1 @1113 ]
+"64412
+[v _IVTBASEL IVTBASEL `VEuc  1 e 1 @1117 ]
+"64474
+[v _IVTBASEH IVTBASEH `VEuc  1 e 1 @1118 ]
+"64536
+[v _IVTBASEU IVTBASEU `VEuc  1 e 1 @1119 ]
+"50 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/main.c
+[v _tick tick `us  1 e 2 0 ]
+"51
+[v _count count `us  1 e 2 0 ]
+"52
+[v _Transmit_Data Transmit_Data `[64]uc  1 e 64 0 ]
+"123 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/can/src/can1.c
+[v _CAN1_InvalidMessageHandler CAN1_InvalidMessageHandler `*.38(v  1 s 3 CAN1_InvalidMessageHandler ]
+"124
+[v _CAN1_BusWakeUpActivityHandler CAN1_BusWakeUpActivityHandler `*.38(v  1 s 3 CAN1_BusWakeUpActivityHandler ]
+"125
+[v _CAN1_BusErrorHandler CAN1_BusErrorHandler `*.38(v  1 s 3 CAN1_BusErrorHandler ]
+"126
+[v _CAN1_ModeChangeHandler CAN1_ModeChangeHandler `*.38(v  1 s 3 CAN1_ModeChangeHandler ]
+"127
+[v _CAN1_SystemErrorHandler CAN1_SystemErrorHandler `*.38(v  1 s 3 CAN1_SystemErrorHandler ]
+"128
+[v _CAN1_TxAttemptHandler CAN1_TxAttemptHandler `*.38(v  1 s 3 CAN1_TxAttemptHandler ]
+"129
+[v _CAN1_RxBufferOverFlowHandler CAN1_RxBufferOverFlowHandler `*.38(v  1 s 3 CAN1_RxBufferOverFlowHandler ]
+"131
+[v _rxMsgData rxMsgData `[64]uc  1 s 64 rxMsgData ]
+[s S315 CAN1_RX_FIFO_MSG 2 `CE23052 1 channel 1 0 `uc 1 headCount 1 1 ]
+"144
+[v _rxFIFOMsg rxFIFOMsg `VE[1]S315  1 s 2 rxFIFOMsg ]
+"85 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_Callback I2C1_Callback `*.38(v  1 s 3 I2C1_Callback ]
+[s S1141 . 13 `a 1 busy 1 0 `us 1 address 2 1 `*.2uc 1 writePtr 2 3 `ui 1 writeLength 2 5 `*.2uc 1 readPtr 2 7 `ui 1 readLength 2 9 `a 1 switchToRead 1 11 `E23204 1 errorState 1 12 ]
+"86
+[v _i2c1Status i2c1Status `VES1141  1 e 13 0 ]
+"38 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/interrupt.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"39
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"40
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+"37 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/timer/src/tmr0.c
+[v _timerTMR0ReloadVal16bit timerTMR0ReloadVal16bit `VEus  1 e 2 0 ]
+"48
+[v _Timer0_OverflowCallback Timer0_OverflowCallback `*.38(v  1 s 3 Timer0_OverflowCallback ]
+[s S2484 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"77 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/uart/src/uart1.c
+[u S2489 . 2 `S2484 1 . 1 0 `ui 1 status 2 0 ]
+[v _uart1RxLastError uart1RxLastError `VES2489  1 e 2 0 ]
+"83
+[v _UART1_FramingErrorHandler UART1_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"84
+[v _UART1_OverrunErrorHandler UART1_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"85
+[v _UART1_ParityErrorHandler UART1_ParityErrorHandler `*.38(v  1 e 3 0 ]
+"114 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"116
+[v main@i i `uc  1 a 1 36 ]
+"154
+} 0
+"54
+[v _can_tx can_tx `(v  1 s 1 can_tx ]
+{
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+"56
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v can_tx@Transmission Transmission `S50  1 a 7 45 ]
+"75
+} 0
+"686 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/can/src/can1.c
+[v _CAN1_Transmit CAN1_Transmit `(E23077  1 e 1 0 ]
+{
+[v CAN1_Transmit@fifoChannel fifoChannel `CE23049  1 a 1 wreg ]
+"688
+[v CAN1_Transmit@txFifoObj txFifoObj `*.39uc  1 a 2 41 ]
+"690
+[v CAN1_Transmit@status status `E23077  1 a 1 40 ]
+"686
+[v CAN1_Transmit@fifoChannel fifoChannel `CE23049  1 a 1 wreg ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_Transmit@txCanMsg txCanMsg `*.39S50  1 p 2 38 ]
+[v CAN1_Transmit@fifoChannel fifoChannel `CE23049  1 a 1 43 ]
+"708
+} 0
+"266
+[v _CAN1_ValidateTransmission CAN1_ValidateTransmission `(E23077  1 s 1 CAN1_ValidateTransmission ]
+{
+[v CAN1_ValidateTransmission@channel channel `uc  1 a 1 wreg ]
+"268
+[v CAN1_ValidateTransmission@txMsgStatus txMsgStatus `E23077  1 a 1 23 ]
+"269
+[v CAN1_ValidateTransmission@plsize plsize `uc  1 a 1 21 ]
+"266
+[v CAN1_ValidateTransmission@channel channel `uc  1 a 1 wreg ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_ValidateTransmission@txCanMsg txCanMsg `*.39S50  1 p 2 17 ]
+"268
+[v CAN1_ValidateTransmission@channel channel `uc  1 a 1 22 ]
+"296
+} 0
+"710
+[v _CAN1_TransmitFIFOStatusGet CAN1_TransmitFIFOStatusGet `(E23095  1 e 1 0 ]
+{
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE23049  1 a 1 wreg ]
+"712
+[v CAN1_TransmitFIFOStatusGet@status status `E23095  1 a 1 15 ]
+"710
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE23049  1 a 1 wreg ]
+"712
+[v CAN1_TransmitFIFOStatusGet@fifoChannel fifoChannel `CE23049  1 a 1 16 ]
+"720
+} 0
+"183
+[v _CAN1_IsTxChannel CAN1_IsTxChannel `(a  1 s 1 CAN1_IsTxChannel ]
+{
+[v CAN1_IsTxChannel@channel channel `uc  1 a 1 wreg ]
+[v CAN1_IsTxChannel@channel channel `uc  1 a 1 wreg ]
+"185
+[v CAN1_IsTxChannel@channel channel `uc  1 a 1 14 ]
+"186
+} 0
+"194
+[v _CAN1_GetTxFifoStatus CAN1_GetTxFifoStatus `(E23095  1 s 1 CAN1_GetTxFifoStatus ]
+{
+[v CAN1_GetTxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+[v CAN1_GetTxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+"196
+[v CAN1_GetTxFifoStatus@validChannel validChannel `uc  1 a 1 13 ]
+"197
+} 0
+"171
+[v _CAN1_PLSIZEToPayloadBytesGet CAN1_PLSIZEToPayloadBytesGet `(uc  1 s 1 CAN1_PLSIZEToPayloadBytesGet ]
+{
+[v CAN1_PLSIZEToPayloadBytesGet@plsize plsize `uc  1 a 1 wreg ]
+[v CAN1_PLSIZEToPayloadBytesGet@plsize plsize `uc  1 a 1 wreg ]
+"173
+[v CAN1_PLSIZEToPayloadBytesGet@plsize plsize `uc  1 a 1 14 ]
+"174
+} 0
+"206
+[v _CAN1_MessageWriteToFifo CAN1_MessageWriteToFifo `(v  1 s 1 CAN1_MessageWriteToFifo ]
+{
+"208
+[v CAN1_MessageWriteToFifo@msgId msgId `ul  1 a 4 34 ]
+"206
+[v CAN1_MessageWriteToFifo@txFifoObj txFifoObj `*.39uc  1 p 2 25 ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_MessageWriteToFifo@txCanMsg txCanMsg `*.39S50  1 p 2 27 ]
+"257
+} 0
+"4 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"8
+[v memcpy@s s `*.39Cuc  1 a 2 22 ]
+"7
+[v memcpy@d d `*.39uc  1 a 2 20 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 24 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 14 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 16 ]
+[v memcpy@n n `ui  1 p 2 18 ]
+"18
+} 0
+"83 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/main.c
+[v _can_event can_event `(v  1 s 1 can_event ]
+{
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+"85
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v can_event@msg msg `S50  1 a 7 28 ]
+"87
+[v can_event@id id `ul  1 a 4 22 ]
+"86
+[v can_event@i i `uc  1 a 1 27 ]
+[v can_event@len len `uc  1 a 1 26 ]
+"106
+} 0
+"5 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 20 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 12 ]
+"13
+} 0
+"1546 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1549
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 66 ]
+[s S3487 _IO_FILE 0 ]
+"1546
+[v vfprintf@fp fp `*.2S3487  1 p 2 6 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 8 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 10 ]
+"1569
+} 0
+"1048
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[u S3505 . 4 `i 1 sint 2 0 `ui 1 uint 2 0 `*.2v 1 vp 3 0 `d 1 f 4 0 ]
+"1059
+[v vfpfcnvrt@convarg convarg `S3505  1 a 4 0 ]
+"1050
+[v vfpfcnvrt@cp cp `*.32uc  1 a 2 4 ]
+[s S3487 _IO_FILE 0 ]
+"1048
+[v vfpfcnvrt@fp fp `*.2S3487  1 p 2 58 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 60 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 62 ]
+"1543
+} 0
+"955
+[v _xtoa xtoa `(v  1 s 1 xtoa ]
+{
+"960
+[v xtoa@i i `i  1 a 2 55 ]
+[v xtoa@p p `i  1 a 2 53 ]
+[v xtoa@w w `i  1 a 2 49 ]
+"959
+[v xtoa@c c `uc  1 a 1 57 ]
+[s S3487 _IO_FILE 0 ]
+"955
+[v xtoa@fp fp `*.2S3487  1 p 2 42 ]
+[v xtoa@d d `ui  1 p 2 44 ]
+"1024
+} 0
+"470
+[v _dtoa dtoa `(v  1 s 1 dtoa ]
+{
+"473
+[v dtoa@i i `i  1 a 2 53 ]
+[v dtoa@w w `i  1 a 2 50 ]
+[v dtoa@p p `i  1 a 2 48 ]
+"472
+[v dtoa@s s `uc  1 a 1 52 ]
+[s S3487 _IO_FILE 0 ]
+"470
+[v dtoa@fp fp `*.2S3487  1 p 2 42 ]
+[v dtoa@d d `i  1 p 2 44 ]
+"527
+} 0
+"152
+[v _pad pad `(v  1 s 1 pad ]
+{
+"154
+[v pad@w w `i  1 a 2 40 ]
+[v pad@i i `i  1 a 2 38 ]
+[s S3487 _IO_FILE 0 ]
+"152
+[v pad@fp fp `*.2S3487  1 p 2 31 ]
+[v pad@buf buf `*.39uc  1 p 2 33 ]
+[v pad@p p `i  1 p 2 35 ]
+"183
+} 0
+"8 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 29 ]
+"10
+[v fputs@c c `uc  1 a 1 28 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 24 ]
+[u S3466 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S3469 _IO_FILE 12 `S3466 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputs@fp fp `*.2S3469  1 p 2 26 ]
+"19
+} 0
+"8 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 15 ]
+[u S3466 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S3469 _IO_FILE 12 `S3466 1 . 3 0 `i 1 count 2 3 `[3]uc 1 ungetbuf 3 5 `i 1 ungetcnt 2 8 `i 1 limit 2 10 ]
+[v fputc@fp fp `*.2S3469  1 p 2 17 ]
+"24
+} 0
+"299 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/uart/src/uart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 14 ]
+"303
+} 0
+"287
+[v _UART1_Write UART1_Write `(v  1 e 1 0 ]
+{
+[v UART1_Write@txData txData `uc  1 a 1 wreg ]
+[v UART1_Write@txData txData `uc  1 a 1 wreg ]
+"289
+[v UART1_Write@txData txData `uc  1 a 1 13 ]
+"290
+} 0
+"247
+[v _UART1_IsTxReady UART1_IsTxReady `(a  1 e 1 0 ]
+{
+"250
+} 0
+"1 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 19 ]
+"4
+} 0
+"7 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 18 ]
+[v ___awmod@counter counter `uc  1 a 1 17 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 13 ]
+[v ___awmod@divisor divisor `i  1 p 2 15 ]
+"34
+} 0
+"7 /Applications/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 19 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 18 ]
+[v ___awdiv@counter counter `uc  1 a 1 17 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 13 ]
+[v ___awdiv@divisor divisor `i  1 p 2 15 ]
+"41
+} 0
+"780 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/can/src/can1.c
+[v _CAN1_ReceivedMessageCountGet CAN1_ReceivedMessageCountGet `(uc  1 e 1 0 ]
+{
+"783
+[v CAN1_ReceivedMessageCountGet@index index `uc  1 a 1 22 ]
+"788
+[v CAN1_ReceivedMessageCountGet@rxfifoMsgTail rxfifoMsgTail `uc  1 a 1 21 ]
+"787
+[v CAN1_ReceivedMessageCountGet@fifoDepth fifoDepth `uc  1 a 1 20 ]
+"782
+[v CAN1_ReceivedMessageCountGet@fifoChannel fifoChannel `E23052  1 a 1 19 ]
+"786
+[v CAN1_ReceivedMessageCountGet@numOfMsg numOfMsg `uc  1 a 1 18 ]
+"785
+[v CAN1_ReceivedMessageCountGet@rxMsgStatus rxMsgStatus `uc  1 a 1 17 ]
+"784
+[v CAN1_ReceivedMessageCountGet@totalMsgObj totalMsgObj `uc  1 a 1 16 ]
+"829
+} 0
+"744
+[v _CAN1_Receive CAN1_Receive `(a  1 e 1 0 ]
+{
+"746
+[v CAN1_Receive@index index `uc  1 a 1 38 ]
+"747
+[v CAN1_Receive@status status `a  1 a 1 37 ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+"744
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_Receive@rxCanMsg rxCanMsg `*.39S50  1 p 2 35 ]
+"761
+} 0
+"406
+[v _CAN1_ReceiveFromFiFo CAN1_ReceiveFromFiFo `(a  1 s 1 CAN1_ReceiveFromFiFo ]
+{
+[v CAN1_ReceiveFromFiFo@index index `uc  1 a 1 wreg ]
+"410
+[v CAN1_ReceiveFromFiFo@rxFifoObj rxFifoObj `*.39uc  1 a 2 31 ]
+"409
+[v CAN1_ReceiveFromFiFo@rxMsgStatus rxMsgStatus `uc  1 a 1 33 ]
+"408
+[v CAN1_ReceiveFromFiFo@status status `a  1 a 1 30 ]
+"406
+[v CAN1_ReceiveFromFiFo@index index `uc  1 a 1 wreg ]
+[v CAN1_ReceiveFromFiFo@channel channel `E23052  1 p 1 25 ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_ReceiveFromFiFo@rxCanMsg rxCanMsg `*.39S50  1 p 2 26 ]
+"408
+[v CAN1_ReceiveFromFiFo@index index `uc  1 a 1 34 ]
+"446
+} 0
+"355
+[v _CAN1_MessageReadFromFifo CAN1_MessageReadFromFifo `(v  1 s 1 CAN1_MessageReadFromFifo ]
+{
+"358
+[v CAN1_MessageReadFromFifo@msgId msgId `ul  1 a 4 20 ]
+"357
+[v CAN1_MessageReadFromFifo@index index `uc  1 a 1 24 ]
+"355
+[v CAN1_MessageReadFromFifo@rxFifoObj rxFifoObj `*.39uc  1 p 2 14 ]
+[s S44 CAN_MSG_FIELD 1 `uc 1 idType 1 0 :1:0 
+`uc 1 frameType 1 0 :1:1 
+`uc 1 dlc 1 0 :4:2 
+`uc 1 formatType 1 0 :1:6 
+`uc 1 brs 1 0 :1:7 
+]
+[s S50 CAN_MSG_OBJ 7 `ul 1 msgId 4 0 `S44 1 field 1 4 `*.39uc 1 data 2 5 ]
+[v CAN1_MessageReadFromFifo@rxCanMsg rxCanMsg `*.39S50  1 p 2 16 ]
+"395
+} 0
+"159
+[v _CAN1_DlcToDataBytesGet CAN1_DlcToDataBytesGet `(uc  1 s 1 CAN1_DlcToDataBytesGet ]
+{
+[v CAN1_DlcToDataBytesGet@dlc dlc `CE23102  1 a 1 wreg ]
+[v CAN1_DlcToDataBytesGet@dlc dlc `CE23102  1 a 1 wreg ]
+"161
+[v CAN1_DlcToDataBytesGet@dlcByteSize dlcByteSize `C[16]uc  1 s 16 dlcByteSize ]
+[v CAN1_DlcToDataBytesGet@dlc dlc `CE23102  1 a 1 13 ]
+"163
+} 0
+"332
+[v _CAN1_GetRxFifoStatus CAN1_GetRxFifoStatus `(uc  1 s 1 CAN1_GetRxFifoStatus ]
+{
+[v CAN1_GetRxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+[v CAN1_GetRxFifoStatus@validChannel validChannel `uc  1 a 1 wreg ]
+"334
+[v CAN1_GetRxFifoStatus@validChannel validChannel `uc  1 a 1 13 ]
+"335
+} 0
+"343
+[v _CAN1_GetRxFifoDepth CAN1_GetRxFifoDepth `(uc  1 s 1 CAN1_GetRxFifoDepth ]
+{
+[v CAN1_GetRxFifoDepth@validChannel validChannel `uc  1 a 1 wreg ]
+[v CAN1_GetRxFifoDepth@validChannel validChannel `uc  1 a 1 wreg ]
+"345
+[v CAN1_GetRxFifoDepth@validChannel validChannel `uc  1 a 1 14 ]
+"346
+} 0
+"77 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/main.c
+[v _CAN1_DlcToDataBytesGet@main$F2979 CAN1_DlcToDataBytesGet `(uc  1 s 1 CAN1_DlcToDataBytesGet ]
+{
+[v CAN1_DlcToDataBytesGet@main$F2979@dlc dlc `CE22938  1 a 1 wreg ]
+[v CAN1_DlcToDataBytesGet@main$F2979@dlc dlc `CE22938  1 a 1 wreg ]
+"79
+[v CAN1_DlcToDataBytesGet@main$F2979@dlcByteSize dlcByteSize `C[16]uc  1 s 16 dlcByteSize ]
+[v CAN1_DlcToDataBytesGet@main$F2979@dlc dlc `CE22938  1 a 1 13 ]
+"81
+} 0
+"37 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/system.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"46
+} 0
+"95 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/uart/src/uart1.c
+[v _UART1_Initialize UART1_Initialize `(v  1 e 1 0 ]
+{
+"144
+} 0
+"340
+[v _UART1_ParityErrorCallbackRegister UART1_ParityErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_ParityErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 13 ]
+"346
+} 0
+"332
+[v _UART1_OverrunErrorCallbackRegister UART1_OverrunErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_OverrunErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 13 ]
+"338
+} 0
+"324
+[v _UART1_FramingErrorCallbackRegister UART1_FramingErrorCallbackRegister `(v  1 e 1 0 ]
+{
+[v UART1_FramingErrorCallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 13 ]
+"330
+} 0
+"51 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/timer/src/tmr0.c
+[v _Timer0_Initialize Timer0_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"132
+[v _Timer0_OverflowCallbackRegister Timer0_OverflowCallbackRegister `(v  1 e 1 0 ]
+{
+[v Timer0_OverflowCallbackRegister@CallbackHandler CallbackHandler `*.38(v  1 p 3 13 ]
+"135
+} 0
+"38 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"146
+} 0
+"42 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/interrupt.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"46
+[v INTERRUPT_Initialize@state state `a  1 a 1 16 ]
+"94
+} 0
+"199
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 13 ]
+"201
+} 0
+"165
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 13 ]
+"167
+} 0
+"131
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 13 ]
+"133
+} 0
+"91 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"132
+} 0
+"448
+[v _I2C1_InterruptsEnable I2C1_InterruptsEnable `T(v  1 s 1 I2C1_InterruptsEnable ]
+{
+"459
+} 0
+"219
+[v _I2C1_CallbackRegister I2C1_CallbackRegister `(v  1 e 1 0 ]
+{
+[v I2C1_CallbackRegister@callbackHandler callbackHandler `*.38(v  1 p 3 13 ]
+"225
+} 0
+"37 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/clock.c
+[v _CLOCK_Initialize CLOCK_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"551 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/can/src/can1.c
+[v _CAN1_Initialize CAN1_Initialize `(v  1 e 1 0 ]
+{
+"596
+} 0
+"454
+[v _CAN1_TX_FIFO_Configuration CAN1_TX_FIFO_Configuration `(v  1 s 1 CAN1_TX_FIFO_Configuration ]
+{
+"464
+} 0
+"304
+[v _CAN1_RX_FIFO_ResetInfo CAN1_RX_FIFO_ResetInfo `(v  1 s 1 CAN1_RX_FIFO_ResetInfo ]
+{
+"306
+[v CAN1_RX_FIFO_ResetInfo@count count `uc  1 a 1 13 ]
+"312
+} 0
+"490
+[v _CAN1_RX_FIFO_FilterMaskConfiguration CAN1_RX_FIFO_FilterMaskConfiguration `(v  1 s 1 CAN1_RX_FIFO_FilterMaskConfiguration ]
+{
+"514
+} 0
+"472
+[v _CAN1_RX_FIFO_Configuration CAN1_RX_FIFO_Configuration `(v  1 s 1 CAN1_RX_FIFO_Configuration ]
+{
+"482
+} 0
+"653
+[v _CAN1_OperationModeSet CAN1_OperationModeSet `(E23091  1 e 1 0 ]
+{
+[v CAN1_OperationModeSet@requestMode requestMode `CE23082  1 a 1 wreg ]
+"655
+[v CAN1_OperationModeSet@status status `E23091  1 a 1 13 ]
+"653
+[v CAN1_OperationModeSet@requestMode requestMode `CE23082  1 a 1 wreg ]
+"655
+[v CAN1_OperationModeSet@requestMode requestMode `CE23082  1 a 1 14 ]
+"679
+} 0
+"681
+[v _CAN1_OperationModeGet CAN1_OperationModeGet `(E23082  1 e 1 0 ]
+{
+"684
+} 0
+"522
+[v _CAN1_BitRateConfiguration CAN1_BitRateConfiguration `(v  1 s 1 CAN1_BitRateConfiguration ]
+{
+"548
+} 0
+"938
+[v _CAN1_InformationISR CAN1_InformationISR `IIH(v  1 e 1 0 ]
+{
+"952
+} 0
+"227 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/i2c_host/src/i2c1.c
+[v _I2C1_ISR I2C1_ISR `IIH(v  1 e 1 0 ]
+{
+"254
+} 0
+"417
+[v _I2C1_StopSend I2C1_StopSend `(v  1 s 1 I2C1_StopSend ]
+{
+"421
+} 0
+"412
+[v _I2C1_RestartDisable I2C1_RestartDisable `T(v  1 s 1 I2C1_RestartDisable ]
+{
+"415
+} 0
+"305
+[v _I2C1_ReadStart I2C1_ReadStart `(v  1 s 1 I2C1_ReadStart ]
+{
+"314
+} 0
+"350
+[v _I2C1_StartSend I2C1_StartSend `(v  1 s 1 I2C1_StartSend ]
+{
+"353
+} 0
+"370
+[v _I2C1_CounterSet I2C1_CounterSet `(v  1 s 1 I2C1_CounterSet ]
+{
+[v I2C1_CounterSet@counter counter `us  1 p 2 0 ]
+"374
+} 0
+"355
+[v _I2C1_AddrTransmit I2C1_AddrTransmit `(v  1 s 1 I2C1_AddrTransmit ]
+{
+[v I2C1_AddrTransmit@addr addr `uc  1 a 1 wreg ]
+[v I2C1_AddrTransmit@addr addr `uc  1 a 1 wreg ]
+"357
+[v I2C1_AddrTransmit@addr addr `uc  1 a 1 0 ]
+"358
+} 0
+"331
+[v _I2C1_Close I2C1_Close `(v  1 s 1 I2C1_Close ]
+{
+"340
+} 0
+"471
+[v _I2C1_InterruptsClear I2C1_InterruptsClear `T(v  1 s 1 I2C1_InterruptsClear ]
+{
+"474
+} 0
+"476
+[v _I2C1_ErrorFlagsClear I2C1_ErrorFlagsClear `T(v  1 s 1 I2C1_ErrorFlagsClear ]
+{
+"481
+} 0
+"483
+[v _I2C1_BufferClear I2C1_BufferClear `T(v  1 s 1 I2C1_BufferClear ]
+{
+"487
+} 0
+"256
+[v _I2C1_ERROR_ISR I2C1_ERROR_ISR `IIH(v  1 e 1 0 ]
+{
+"290
+} 0
+"423
+[v _I2C1_IsNack I2C1_IsNack `(a  1 s 1 I2C1_IsNack ]
+{
+"426
+} 0
+"438
+[v _I2C1_IsData I2C1_IsData `(a  1 s 1 I2C1_IsData ]
+{
+"441
+} 0
+"433
+[v _I2C1_IsBusTimeOut I2C1_IsBusTimeOut `(a  1 s 1 I2C1_IsBusTimeOut ]
+{
+"436
+} 0
+"428
+[v _I2C1_IsBusCol I2C1_IsBusCol `(a  1 s 1 I2C1_IsBusCol ]
+{
+"431
+} 0
+"443
+[v _I2C1_IsAddr I2C1_IsAddr `(a  1 s 1 I2C1_IsAddr ]
+{
+"446
+} 0
+"342
+[v _I2C1_DefaultCallback I2C1_DefaultCallback `(v  1 s 1 I2C1_DefaultCallback ]
+{
+"345
+} 0
+"381
+[v _I2C1_BusReset I2C1_BusReset `T(v  1 s 1 I2C1_BusReset ]
+{
+"405
+} 0
+"448
+[v i2_I2C1_InterruptsEnable I2C1_InterruptsEnable `T(v  1 s 1 i2_I2C1_InterruptsEnable ]
+{
+"459
+} 0
+"461
+[v _I2C1_InterruptsDisable I2C1_InterruptsDisable `T(v  1 s 1 I2C1_InterruptsDisable ]
+{
+"469
+} 0
+"292
+[v _I2C1_RX_ISR I2C1_RX_ISR `IIH(v  1 e 1 0 ]
+{
+"295
+} 0
+"365
+[v _I2C1_DataReceive I2C1_DataReceive `(uc  1 s 1 I2C1_DataReceive ]
+{
+"368
+} 0
+"297
+[v _I2C1_TX_ISR I2C1_TX_ISR `IIH(v  1 e 1 0 ]
+{
+"300
+} 0
+"360
+[v _I2C1_DataTransmit I2C1_DataTransmit `(v  1 s 1 I2C1_DataTransmit ]
+{
+[v I2C1_DataTransmit@data data `uc  1 a 1 wreg ]
+[v I2C1_DataTransmit@data data `uc  1 a 1 wreg ]
+"362
+[v I2C1_DataTransmit@data data `uc  1 a 1 4 ]
+"363
+} 0
+"96 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/interrupt.c
+[v _Default_ISR Default_ISR `IIH(v  1 e 1 0 ]
+{
+"98
+} 0
+"100
+[v _IOC_ISR IOC_ISR `IIH(v  1 e 1 0 ]
+{
+"103
+} 0
+"148 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/pins.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"150
+} 0
+"113 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/system/src/interrupt.c
+[v _INT0_ISR INT0_ISR `IIH(v  1 e 1 0 ]
+{
+"119
+} 0
+"122
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+{
+"129
+} 0
+"135
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"138
+} 0
+"147
+[v _INT1_ISR INT1_ISR `IIH(v  1 e 1 0 ]
+{
+"153
+} 0
+"156
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+{
+"163
+} 0
+"169
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"172
+} 0
+"181
+[v _INT2_ISR INT2_ISR `IIH(v  1 e 1 0 ]
+{
+"187
+} 0
+"190
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+{
+"197
+} 0
+"203
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"206
+} 0
+"118 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/timer/src/tmr0.c
+[v _Timer0_OverflowISR Timer0_OverflowISR `IIH(v  1 e 1 0 ]
+{
+"130
+} 0
+"108 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/main.c
+[v _Timer0_CustomHandler Timer0_CustomHandler `(v  1 e 1 0 ]
+{
+"111
+} 0
+"137 /Users/sukkinpang/Documents/Microchip_projects/PIC18F57Q84/PIC18F57Q84_Curiosity_nano_CAN_FD_demo.X/mcc_generated_files/timer/src/tmr0.c
+[v _Timer0_DefaultOverflowCallback Timer0_DefaultOverflowCallback `(v  1 s 1 Timer0_DefaultOverflowCallback ]
+{
+"141
+} 0
